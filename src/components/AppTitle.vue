@@ -3,6 +3,7 @@
         data() {
             return {
                 title: "La mia prima app con Vite!"
+                
             }
         }
     }
@@ -10,6 +11,9 @@
 
 <template>
     <div>
-        <h1>{{title}}</h1>
+        <h1 class="fw-bolder">{{title}}</h1>
     </div>
 </template>
+
+<style>
+</style>
